@@ -1,0 +1,90 @@
+*{
+    margin: 0;
+    padding: 0;
+    font-family: sans-serif;
+}
+.header{
+    background-color: rgb(20, 20, 20);
+}
+.container{
+    width: 1500px;
+    background-color: rgba(18, 18, 18, 0.703);
+    margin: 0 auto;
+}
+.navbar{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.logo{
+    width: 100px;
+    /* padding: 5px; */
+}
+img{
+    width: 100%;
+    background-color: rgba(0, 0, 0, 0.119);
+}
+h4{
+    color: white;
+}
+.dropbox input{
+    width: 500px;
+    padding: 10px;
+    /* border-radius: 5px; */
+    margin: -4px;
+}
+.dropbox select{
+    width: 65px;
+    padding: 11px;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+    background-color: rgb(215, 214, 214);
+}
+button{
+    background-color: orange;
+    padding: 11px;
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+    margin: -2px;
+}
+.languagebox select{
+    background-color: black;
+    color: white;
+    width: 40px;
+}
+p{
+    color: white;
+}
+/* .header2{
+    background-color: black;
+} */
+.container2{
+    width: 1500px;
+    background-color: rgb(63, 59, 59);
+    margin: 0 auto;
+}
+.navbar2{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    flex-wrap: wrap;
+}
+.link ul li{
+    display: inline-block;
+    padding: 10px 10px 10px 30px;
+    margin: 0 15px 0 0;
+}
+a{
+  text-decoration: none;  
+  color: white;
+}
+.link2 a{
+    padding: 10px;
+    font-size: 17px;
+    margin-right: 5px;
+}
+.link2 i{
+    font-size: 20px;
+    padding: 10px;
+}
